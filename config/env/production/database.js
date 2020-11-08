@@ -9,7 +9,7 @@ module.exports = ({ env }) => ({
       settings: {
         client: 'postgres',
         host: config.host,
-        port: process.env.PORT,
+        port: config.port,
         database: config.database,
         username: config.user,
         password: config.password,
