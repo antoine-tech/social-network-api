@@ -12,6 +12,7 @@
   "devDependencies": {},
   "dependencies": {
     "knex": "<0.20.0",
+    "pg": "^8.4.2",
     "pg-connection-string": "^2.4.0",
     "serve": "^11.3.2",
     "sqlite3": "latest",
